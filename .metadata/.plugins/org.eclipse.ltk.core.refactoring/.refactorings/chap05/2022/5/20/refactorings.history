@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;chap05.MainStringArrayArqument&apos; to &apos;MainStringArrayArgument&apos;&#x0D;&#x0A;- Original project: &apos;chap05&apos;&#x0D;&#x0A;- Original element: &apos;chap05.MainStringArrayArqument&apos;&#x0D;&#x0A;- Renamed element: &apos;chap05.MainStringArrayArgument&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;MainStringArrayArqument&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;chap05{MainStringArrayArqument.java[MainStringArrayArqument" matchStrategy="1" name="MainStringArrayArgument" qualified="false" references="true" similarDeclarations="false" stamp="1652084887906" textual="false" version="1.0"/>
+</session>
