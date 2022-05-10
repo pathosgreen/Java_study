@@ -1,0 +1,13 @@
+package chap05;
+
+public class Week2 {
+	public static void main(String[] args) {
+		
+		
+		Week reservtionDay;
+		
+		Week today = Week.SUNDAY;
+		
+		Week birthday = null;
+	}
+}

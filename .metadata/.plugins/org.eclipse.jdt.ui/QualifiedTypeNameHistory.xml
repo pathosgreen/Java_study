@@ -2,6 +2,13 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
     <fullyQualifiedTypeName name="java.lang.Exception"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="chap05.Week"/>
+    <fullyQualifiedTypeName name="java.util.Calendar"/>
+    <fullyQualifiedTypeName name="chap06.Sam"/>
+    <fullyQualifiedTypeName name="P207.Korean"/>
+    <fullyQualifiedTypeName name="P210.Car"/>
+    <fullyQualifiedTypeName name="P217.Calculator"/>
+    <fullyQualifiedTypeName name="P229.Car"/>
 </qualifiedTypeNameHistroy>
