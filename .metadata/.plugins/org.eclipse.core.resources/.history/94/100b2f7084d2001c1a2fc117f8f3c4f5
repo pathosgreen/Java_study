@@ -1,0 +1,14 @@
+package P314;
+
+public class Car {
+	// 필드
+	public int maxRotation;
+	public int accumulatedRotation;
+	public String location;
+	
+	// 생성자
+	public Tire(String location, int maxRotation) {
+		this.location = location;
+		this.maxRotation = maxRotation;
+	}
+}

@@ -1,0 +1,36 @@
+package test;
+
+public class TestTwo {
+	public static void main(String[] args) {
+		
+		int[] point = {98,70,45,60,83};
+		
+		// 총점
+		int sum=0;
+		for(int i=0;i<point.length;i++) {
+			sum+=point[i];
+		}
+		System.out.println("총점 = "+sum);
+		
+		// 평균
+		double avg=(double)sum/point.length;
+		System.out.println("평균 = "+avg);
+		
+		// 최고점수
+		int pomax=0;
+		for(int i=0;i<point.length;i++) {
+			if(pomax<point[i]) {
+				pomax=point[i];
+			}
+		}
+		System.out.println("최고점수 = "+ pomax);
+		// 최저점수
+		int pomin=100;
+		for(int i=0;i<point.length;i++) {
+			if(pomin>point[i]) {
+				pomin=point[i];
+			}
+		}
+		System.out.println("최저점수 = "+ pomin);
+	}
+}

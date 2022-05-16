@@ -1,0 +1,26 @@
+package test;
+
+public class Test04 {
+	public static void main(String[] args) {
+		// 등수 구하기
+		
+		int[] point = {98,70,45,60,83};
+		int[] rank;
+		int[] temp= {0,0,0,0,0};
+		for(int i=0;i<point.length; i++) {
+			for(int j=1;j<point.length; j++ ) {
+				if( point[i]<point[j]) {
+					System.out.println(point[i]+"<"+point[j]);
+					temp[j]++;
+				}else {
+					temp[j]--;
+				}
+			}
+		}
+		System.out.println(temp[0]);
+		System.out.println(temp[1]);
+		System.out.println(temp[2]);
+		System.out.println(temp[3]);
+		System.out.println(temp[4]);
+	}
+}

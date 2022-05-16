@@ -1,0 +1,8 @@
+package test;
+
+public class Test03 {
+	public static void main(String[] args) {
+		// 학점 구하기
+		int[] gra = {11,13,8,16,10};
+	}
+}

@@ -18,7 +18,6 @@
     <fullyQualifiedTypeName name="sec12.exam03_import.hankook.SnowTire"/>
     <fullyQualifiedTypeName name="sec12.exam03_import.kumho.BigWidthTire"/>
     <fullyQualifiedTypeName name="sec12.exam03_import.hankook.Tire"/>
-    <fullyQualifiedTypeName name="java.util.Random"/>
     <fullyQualifiedTypeName name="P290.DmbCellPhone"/>
     <fullyQualifiedTypeName name="P294.People"/>
     <fullyQualifiedTypeName name="P294.Student"/>
@@ -28,6 +27,7 @@
     <fullyQualifiedTypeName name="P296.Computer"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="P314.Car"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>

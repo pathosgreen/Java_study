@@ -1,0 +1,27 @@
+package test;
+
+public class Test05 {
+	public static void main(String[] args) {
+		// 조합
+		
+		String[] name = {"aaa","bbb","ccc","ddd","eee"};
+		int[] kuk = {98,70,45,60,83};
+		int[] eng = {55,61,54,70,71};
+		int[] mat = {68,93,62,49,92};
+		int[] rank = new int[5];
+		int[] sum = {0,0,0,0,0};
+		
+		for(int i=0;i<sum.length; i++) {
+			rank[i]=1;
+			for(int j=0;j<sum.length;j++) {
+				if(sum[i]<sum[j]) {
+					rank[i]+=1;
+				}
+			}
+		}
+		System.out.println("번호\t이름\t국어\t영어\t수학\t총점\t등수");
+		for(int i=0;i<rank.length; i++) {
+			System.out.println(i+1 +".\t"+name[i]+"\t"+ kuk[i]+"점\t"+"\t"+ eng[i]+"점\t"+"\t"+ mat[i]+"점\t"+rank[i]+"등");
+		}
+	}
+}
