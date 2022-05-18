@@ -9,13 +9,14 @@ public class RemoteControlExample {
 		rc = new Television();
 		rc.turnOn();
 		rc.turnOff();
+		rc.setMute(true);
 		
 		//RemoteControl rc = new RemoteControl();
 		//Audio rc = new Audio();
 		rc = new Audio();
 		rc.turnOn();
 		rc.turnOff();
-		
+		rc.setMute(true);
 		
 		
 	}
