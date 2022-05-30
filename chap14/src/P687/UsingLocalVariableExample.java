@@ -6,5 +6,4 @@ public class UsingLocalVariableExample {
 		UsingLocalVariable ulv = new UsingLocalVariable();
 		ulv.method(20);
 	}
-
 }
