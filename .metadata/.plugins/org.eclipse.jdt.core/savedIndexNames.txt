@@ -8,7 +8,6 @@ INDEX VERSION 1.131+D:\KimBJ\java_data\.metadata\.plugins\org.eclipse.jdt.core
 3271193799.index
 431892066.index
 4041048919.index
-2234634515.index
 2663481984.index
 2007115701.index
 10819363.index
